@@ -1,4 +1,4 @@
-call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
+call "%MSVC_DIR%\Common7\Tools\VsDevCmd.bat"
 
 cd "%~dp0/../build"
 :: /c               -- dont link

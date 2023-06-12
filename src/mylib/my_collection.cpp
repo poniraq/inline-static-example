@@ -4,10 +4,10 @@
 MyCollection::MyCollection()
     : MyCollection::Parent()
 {
-    std::cout << "MyCollection constructor" << std::endl;
+    std::cout << "-- MyCollection constructor" << std::endl;
 }
 
 MyCollection::~MyCollection()
 {
-    std::cout << "MyCollection destructor" << std::endl;
+    std::cout << "-- MyCollection destructor" << std::endl;
 }
